@@ -12,7 +12,7 @@ import { KeywordModel } from './models/keywords.js'
 
 import { corsMiddleware } from './middlewares/cors.js'
 
-const express = require('express');
+
 
 const app = express()
 app.use(json())
